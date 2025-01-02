@@ -96,13 +96,14 @@ gitGraph
     merge release/1.0
     checkout develop
     merge release/1.0
+    checkout main
     branch hotfix/1.0.1
     checkout hotfix/1.0.1
     commit
     checkout main
     merge hotfix/1.0.1
     checkout develop
-    merge hotfix/1.0.1
+    merge hotfix/1.0.1    
 ```
 
 ## Common Commands
