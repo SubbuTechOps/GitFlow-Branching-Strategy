@@ -94,6 +94,8 @@ gitGraph
     commit
     checkout main
     merge release/1.0
+    checkout develop
+    merge release/1.0
     branch hotfix/1.0.1
     checkout hotfix/1.0.1
     commit
